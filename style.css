@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing:border-box;
+    font-family: "Readex Pro", sans-serif;
+}
+.header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.listNav{
+    display: flex;
+}
+.itemList{
+    margin-right: 33px;
+    color: black;
+    font-size: 14px ;
+    text-transform: uppercase;
+}
+.search{
+margin-right: 13px;
+}
+.slider{
+   background-color: #DCE5E2;
+   width: 1294px;
+   border-radius: 32px;
+   display: flex;
+   margin: auto;
+   justify-content: space-around;
+   align-items:center;
+}
+.title{
+   font-size: 58px; 
+   font-weight: 400;
+}
+.desc-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 19px;
+    margin-bottom: 30px;
+    font-family: "Readex Pro", sans-serif;
+}
+.btn-slider{
+    border: 1px solid;
+    background-color: #DCE5E2;
+    border-radius: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 14px 53px;
+}
+.title-item{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.subtitle{
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 9px;
+}
+.title-card{
+    margin-bottom: 9px;
+    margin-top: 28px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.text-card{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+.price-card{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.container-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shop{
+text-align: center;
+margin-top: 47px;
+margin-bottom: 9px;
+}
+.shop-title{
+    font-family: "Readex Pro", sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+}
+.shop-text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Readex Pro", sans-serif;
+    margin-bottom: 44px;
+}
+
+
+
+
+.section-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    margin-bottom: 72px;
+}
+.left-product{
+margin-left: 16px;
+
+}
+.right-block{
+    display: flex;
+    margin-left: 16px;
+    margin-right: 15px;
+}
+.laptop-block{
+    width: 639px;
+    /* height: 472px; */
+    box-shadow: 4px 4px 8px 0px hsla(0, 0%, 0%, 0.25);
+    margin-bottom: 72px;
+    padding: 0px 42px;
+}
+.watch-block{
+    display: flex;
+    align-items: center;
+    width: 639px;
+    height: 270px;
+    box-shadow: 4px 4px 8px 0px hsla(0, 0%, 0%, 0.25);
+    margin-top: 72px;
+    padding: 0px 42px;
+    justify-content: space-between;
+}
+.phone-block{
+    width: 312px;
+    height: 792px;
+    box-shadow: 4px 4px 8px 0px hsla(0, 0%, 0%, 0.25); 
+    margin-right: 15px;
+}
+.ipad-block{
+    width: 312px;
+    height: 792px;
+    box-shadow: 4px 4px 8px 0px hsla(0, 0%, 0%, 0.25);
+}
+.img-laptop{
+    width: 500px;
+    height: 377px;
+    margin-right: 97px;
+    margin-left: 42px;
+}
+.text-laptops{
+   font-weight: 400;
+   font-family: "Inter", sans-serif;
+   margin-top: 19px;
+   text-align: end;
+}
+.title-laptops{
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 19px;
+    text-align: end;
+}
+.text-watch{
+    text-align: end;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+.title-watch{
+font-size: 32px;
+font-weight: 400;
+text-align: end;
+}
+.phone-block-img{
+    width: 296px;
+    height: 367px;
+    margin-top: 144px;
+    margin-left: 16px;
+}
+.ph-text-block{
+font-size: 15px;
+font-weight: 400;
+color: hsla(0, 0%, 0%, 1);
+text-align: center;
+font-family: "Inter", sans-serif;
+margin-top: 41px;
+}
+.phones-title-block{
+font-size: 32px;
+font-weight: 400;
+text-align: center;
+}
+
+.ip-text-block{
+text-align: center;
+margin-top: 114px;
+font-size: 16px;
+font-weight: 400;
+font-family: "Inter", sans-serif;
+}
+
+.ip-title-block{
+text-align: center;
+font-size: 32px;
+font-weight: 400;
+color: hsla(0, 0%, 0%, 1);
+font-family: "Readex Pro", sans-serif;
+}
+.ipad-block-img{
+margin-top: 32.89px;
+}
+
+.title-new-items{
+    font-weight: 400;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 9px;
+}
+.subtitle-new-items{
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+}
+.container-new-items{
+    display: flex;
+    justify-content: space-around;
+}
+.new-items{
+    margin-top: 28px;
+}
+.container-new-items{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 56px;
+}
+.card-new-items{
+    width: 413px;
+    
+    background-color:hsla(210, 17%, 98%, 1);
+    border-radius: 16px;
+    text-align: center;
+    margin-right: 28px;
+}
+.text-new-items{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 41px;
+
+}
+
+.btn-new-items{
+    border: 1px solid;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding: 14px 63px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color:hsla(210, 17%, 98%, 1);
+}
+
+.title-ideas{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+    margin-top: 54px;
+}
+.text-ideas{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 9px;
+    text-align: center;
+}
+.left-block-ideas{
+    border-radius: 16px;
+    margin-right: 35px;
+}
+
+
+.block-new{
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   margin-top: 56px;
+}
+
+.text-ideas-items{
+    text-align: start;
+    margin-top: 23px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', serif;
+    line-height: 30px;
+}
+.section-form{
+    text-align: center;
+    margin-top: 25px;
+}
+.title-text{
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.input-form{
+    width: 650px;
+    height: 60px;
+    border-radius:100px;
+    background-color:hsla(210, 17%, 98%, 1);
+    border: 1px solid hsla(0, 0%, 77%, 1);
+    padding-left: 67px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+.search-icon{
+    position: relative;
+    left: 50px;
+    top: 16px;
+}
+.container-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+.card-product{
+    padding: 12px 22px;
+    border: 1px solid hsla(0, 0%, 77%, 1);
+    border-radius: 200px;
+    margin-right: 7px;
+}
+.down-block{
+    width: 935px;
+    margin: 0 auto;
+    background-color: hsla(160, 15%, 88%, 1);
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 42px;
+    padding: 47px 0;
+}
+.title-form{
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+.subtitle-form{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.input-sign{
+    background-color: hsla(160, 15%, 88%, 1);
+    width: 400px;
+    height: 50px;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    padding-left: 32px;
+    border: 1px solid;
+    font-family: "Inter", sans-serif;
+}
+.btn-form{
+    width: 115px;
+    height: 50px;
+    font-family: "Inter", sans-serif;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    background-color: hsla(0, 0%, 0%, 1);
+    color: hsla(0, 0%, 100%, 1);
+    position: relative;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    right: 15px;
+}
+.footer{
+    background-color: hsla(210, 17%, 98%, 1);
+    margin-top: 27px;
+    padding-top: 29px;
+}
+.site-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.text-footer{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    margin-top: 18px;
+}
+.item-footer{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    margin-top: 15px;
+}
+.item-footer-first{
+    font-weight: 400;
+    font-size: 22px;
+}
+.line{
+    width: 1,350px;
+    height: 1px;
+    background-color: hsla(160, 15%, 88%, 1);
+    margin-top: 79px;
+    margin-left: 45px;
+    margin-right: 45px;
+
+
+}
+.developers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 53px;
+}
+.made-footer{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+.made{
+    font-weight: 400;
+    font-size: 18px;
+}
+.powered{
+    font-weight: 400;
+    font-size: 18px;
+}
+.powered-footer{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
